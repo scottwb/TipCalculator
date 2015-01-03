@@ -13,6 +13,7 @@
 		BEA0CE281A5883820061D349 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CE271A5883820061D349 /* Images.xcassets */; };
 		BEA0CE2B1A5883820061D349 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CE291A5883820061D349 /* LaunchScreen.xib */; };
 		BEA0CE371A5883820061D349 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CE361A5883820061D349 /* TipCalculatorTests.swift */; };
+		BEA0CE411A5883F90061D349 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CE401A5883F90061D349 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BEA0CE301A5883820061D349 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0CE351A5883820061D349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA0CE361A5883820061D349 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		BEA0CE401A5883F90061D349 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		BEA0CE121A5883820061D349 = {
 			isa = PBXGroup;
 			children = (
+				BEA0CE401A5883F90061D349 /* TipCalculatorModel.swift */,
 				BEA0CE1D1A5883820061D349 /* TipCalculator */,
 				BEA0CE331A5883820061D349 /* TipCalculatorTests */,
 				BEA0CE1C1A5883820061D349 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA0CE411A5883F90061D349 /* TipCalculatorModel.swift in Sources */,
 				BEA0CE231A5883820061D349 /* ViewController.swift in Sources */,
 				BEA0CE211A5883820061D349 /* AppDelegate.swift in Sources */,
 			);
